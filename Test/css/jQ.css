@@ -1,0 +1,30 @@
+#intro{
+background:url('../images/firstBG.jpg') 50% 0 no-repeat fixed;
+color:white;
+height: 800px;
+margin: 0 auto;
+padding: 0;
+}
+
+#second{
+background:url('../images/secondBG.jpg') 50% 0 no-repeat fixed;
+color:white;
+height: 900px;
+margin: 0 auto;
+padding: 0;
+}
+
+#forth{
+background:url('../images/forth.jpg') 40% 50% no-repeat fixed;
+color:white;
+height: 900px;
+margin: 0 auto;
+padding: 0;
+}
+
+#third{
+background:url('../images/thirdBG.jpg') 50% 0 no-repeat fixed;
+color:white;
+height: 650px;
+padding: 0;
+}

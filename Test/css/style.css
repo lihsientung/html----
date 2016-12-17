@@ -1,0 +1,97 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+.inline li{
+  display: inline-block;
+}
+li{
+  list-style: none;
+}
+ul{
+  padding-left: 0px;
+}
+.centered{
+  text-align: center;
+}
+.fleft{
+  float: left;
+}
+.fright{
+  float: right;
+}
+h1{
+  color: #CA4B7C;
+}
+p{
+  color: #7A2E7A;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+a{
+  color: white !important;
+  text-decoration: none;
+}
+a:hover{
+  color: white !important;
+  text-decoration: none !important;
+}
+
+#logoutBtn{
+  background-color: rgba(0, 0, 0, 0.0);
+  border: none;
+}
+body{
+  height: 100vh;
+  width: 100%;
+  background-image:url("../images/login_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mdl-grid{
+  padding: 5% 5% !important;
+}
+.card{
+ padding:5% 5%;
+ background-color:rgba(255, 255, 255, 0.8);
+}
+.slogan{
+  margin-bottom: 10%;
+}
+.hidden{
+  display: none;
+}
+#sticker li{
+  display: inline-block;
+  padding-left: 10px;
+}
+#messages{
+  margin-top: 10px;
+  height: 50vh;
+  overflow: auto;
+  margin-bottom: 25px;
+}
+
+.mdl-textfield__label{
+  margin-bottom: 0 !important;
+}
+.btn_group button{
+  margin-top: 20px;
+}
+.mdl-layout__drawer{
+  padding-left: 15px;
+}
+.mdl-layout-title{
+  padding-left: 0px !important;
+}
+#avatar{
+  border-radius: 100%;
+}
+#editAvatar{
+  margin-bottom: 10px;
+}
